@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@media 
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0 auto;
+}
+.block {
+  margin: 8px 0;
+  padding: 32px;
+  text-align: center;
+  font: 32px sans-serif;
+  content: " ";
+}
+*{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+.header { 
+	width: 100%;
+	background: #007765;
+	position: fixed;
+	height: 84px;
+	z-index: 21;
+	display: flex;
+	align-items: center;
+	top: 0;
+}
+.container {
+	width: 100%;
+	max-width: 1219px;
+	margin-left: auto;
+    margin-right: auto;
+	padding-left: 55px;
+	padding-right: 55px;
+	text-align: center;
+	
+}
+
+.navigation {
+	height: 100%;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+}
+.nav {
+	font-size: 24px;
+	line-height: 28px;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	}
+
+.logo:hover {
+	transform: scale(0.7);
+	transition: 2s;
+}
+.nav:hover { color: #342134;
+	}
+
+.PiperNet {
+	 background: url(../images/image.png) center no-repeat;
+	 background-size: cover;
+	 margin-top: 84px;
+	 padding-top: 160px;
+	 padding-bottom: 160px;
+
+}
+.title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.the_problem {
+	color: #007765;
+	font-size: 64px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 48px;
+	
+}
+.problem_abzac {
+	background-color: #EEEEEE;
+	padding-top: 55px;
+	padding-bottom: 92px;
+	text-align: center;
+}
+/*.prob {
+	text-align: center;
+
+}*/
+.problem {
+	color: black;
+	text-align: left;
+	font-size: 32px;
+	line-height: 1.3;
+
+}
+span {font-weight: bold; }
+.blue {
+	background: url(../images/image.jpg);
+	background-size: cover;
+	padding: 128px 0px;
+
+}
+.blue_text {
+	text-align: center;
+	font-size: 48px;
+	font-style: italic;
+	color: white;
+
+}
+.imagelogo {
+	text-align: left;
+	width: 115px;
+	height: 115px;
+	float: left;
+
+}
+.piper {
+	padding-top: 48px;
+}
+
+.pipertable {
+	color: black;
+	font-size: 32px;
+	line-height: 1.3;
+}
+.team {
+	background-color: #EEEEEE;
+}
+.center {
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 32px;
+}
+.foto {
+	width: 350px;
+	height: 283px;
+}
+.name {
+	color: #007765;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+.figure {
+	display: flex;
+	justify-content: space-evenly;
+  	flex-wrap: wrap;
+  	margin: 0;
+  	padding: 0;
+}
+.footer {
+	background-color: #333333;
+	padding-top: 48px;
+	padding-bottom: 64px;
+	height: 176px;
+
+}
+.pfooter {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	width: 540px;
+	height: 64px;
+	margin: 0 auto;
+}
